@@ -1,5 +1,5 @@
 header {
-    background-color:#030c13;
+    background-color: #030c13;
     height: 100px;
 }
 
@@ -21,11 +21,11 @@ img {
     width: 15%;
     padding: 10px 50px;
 }
+
 nav {
     float: right;
     color: white;
     margin: 20px auto;
-
 }
 
 nav ul {
@@ -52,9 +52,9 @@ nav a:hover {
     transition: all ease-in-out 250ms;
 }
 
-@media all and (max-width : 700px) {
+@media all and (max-width: 700px) {
     nav li {
-        display:block;
+        display: block;
         float: none;
         padding-top: .5%;
         /* display: inline-block; */
@@ -93,23 +93,24 @@ h3 {
     font-weight: 300;
     color: white;
 }
- h3:hover {
-     color: #ecb518;
- }
 
- h6 {
-     font-size: 12px;
-     font-family: 'News Cycle', sans-serif;
-     color: white;
-     padding-top: 5%;
-     margin-top: 0px;
- }
+h3:hover {
+    color: #ecb518;
+}
+
+h6 {
+    font-size: 12px;
+    font-family: 'News Cycle', sans-serif;
+    color: white;
+    padding-top: 5%;
+    margin-top: 0px;
+}
 
 p {
     font-family: 'News Cycle', sans-serif;
     font-weight: 200;
     font-size: 20px;
-    color:#dae3e9;
+    color: #dae3e9;
 }
 
 #div01 {
@@ -119,11 +120,11 @@ p {
     background-size: 100%;
     padding-bottom: 20%;
     padding-top: 9%;
-    padding-left:63%;
-    background-image: url(./assets_new/dinning_1_edited_1422x696.jpg);
+    padding-left: 63%;
+    background-image: url(./assets/dinning_1_edited_1422x696.jpg);
 }
 
-@media all and (max-width : 700px) {
+@media all and (max-width: 700px) {
     #div01 {
         background-position: cover;
         background-size: 100%;
@@ -131,14 +132,12 @@ p {
         padding-left: 10%;
         /* background-attachment: */
     }
-
     h1 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 35px;
-    color: #f1bb17;
-    font-weight: 600;
-    /* padding-top: 6em; */
-
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 35px;
+        color: #f1bb17;
+        font-weight: 600;
+        /* padding-top: 6em; */
     }
 }
 
@@ -162,29 +161,28 @@ p {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-  }
+}
 
-  .fa:hover {
-      opacity: 0.7;
-  }
+.fa:hover {
+    opacity: 0.7;
+}
 
-  .fa-facebook {
+.fa-facebook {
     /* background:#3B5998; */
     color: white;
-  }
+}
 
-  .fa-twitter {
+.fa-twitter {
     /* background: #55ACEE; */
     color: white;
-  }
+}
 
-  footer {
-      width: 100%;
-      background-color: black;
-      text-align: center;
-      margin-top: 0;
-  }
-
+footer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin-top: 0;
+}
 
 
 /* .button1 {
@@ -194,6 +192,7 @@ p {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.5s;
 } */
+
 
 /* .button1:hover {
     background-color: #8d0d28;

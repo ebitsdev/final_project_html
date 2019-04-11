@@ -1,7 +1,7 @@
 body {
     /* background-color: black; */
     /* background-image: url(https://images.unsplash.com/photo-1534528770941-33118ceae543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1916&q=80); */
-    background-image: url("./assets_new/hamburger_select_edited.jpg");
+    background-image: url("./assets/hamburger_select_edited.jpg");
     background-size: cover;
     backdrop-filter: brightness(10%);
     font-family: 'Open Sans Condensed', cursive;
@@ -27,22 +27,22 @@ form {
     /* border: 9px solid purple; */
 }
 
- #imageContainer img {
+#imageContainer img {
     /* border: 1px solid whitesmoke; */
     padding: 5px 5px;
     transition: transform .2s;
-  height: auto;
-  max-width: 20%;
-  border: 2px solid slategray;
-  margin: 1.5em;
-  transition: all 0.5s ease-in-out;
+    height: auto;
+    max-width: 20%;
+    border: 2px solid slategray;
+    margin: 1.5em;
+    transition: all 0.5s ease-in-out;
 }
 
-#imageContainer img:hover, img:focus{
+#imageContainer img:hover, img:focus {
     transform: scale(1.16);
     -webkit-transform: scale(1.16);
     -ms-transform: scale(1.16);
-  }
+}
 
 video {
     border: 1.5px solid grey;
@@ -50,7 +50,7 @@ video {
     margin-left: 50px;
 }
 
-video:hover, video:focus{
+video:hover, video:focus {
     transform: scale(1.14)
 }
 
