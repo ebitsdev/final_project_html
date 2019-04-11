@@ -18,22 +18,22 @@ RestaurantObject.prototype.getLogo = function(){
 }
 
 //declare new objects and accompanying properties within each new restaurant Object
-let BibiBop = new RestaurantObject('BibiBop', './assets/bibibop.png', './assets/rest_bibibop.jpg', 'BibiBop', 'asian')
-let Chipotle = new RestaurantObject('Chipotle', './assets/chipotle.jpg', './assets/rest_chipotle.png', 'Chipotle', 'spanish')
-let Cesco = new RestaurantObject('CescoOsteria', './assets/cesco.png', './assets/rest_cesco.jpg', 'Cesco Osteria', 'italian')
-let GringoMariachi = new RestaurantObject('GringoMariachi', './assets/gringo_mari.png', './assets/rest_gringomari.jpg', 'Gringos & Mariachis', 'spanish')
-let Jaleo = new RestaurantObject('Jaleo', './assets/jaleo.jpg', './assets/rest_jaleo.jpg', 'Jaleo', 'spanish')
-let Tandoori = new RestaurantObject('TandooriNights', './assets/tandoori.png', './assets/rest_tandoori.jpg', 'Tandoori Nights', 'asian')
-let LaMadeleine = new RestaurantObject('laMadeleine', './assets/la_madeleine.jpg', './assets/rest_madeleine.jpg', 'La Madeleine', 'french')
-let HanaroSushi= new RestaurantObject('HanaroSushi', './assets/hanaro.png', './assets/rest_hanaro.jpg', 'Hanaro Sushi', 'asian')
-let MamaLucia = new RestaurantObject('MamaLucia', './assets/mama_lucia.jpg', './assets/rest_mamalucia.jpg', 'Mama Lucia', 'italian')
-let MannyOlga = new RestaurantObject('MannyOlga', './assets/manny_olga.png', './assets/rest_manny-olga.jpg', 'Manny & Olga\'s Pizza', 'italian')
-let MonAmi = new RestaurantObject('MonAmiGabi', './assets/mon_ami.jpg', './assets/monami.jpg', 'Mon Ami Gabi', 'french')
-let Olazzo = new RestaurantObject('Olazzo', './assets/olazzo.jpg', './assets/rest_olazzo.jpg', 'Olazzo', 'italian')
-let Panetteria = new RestaurantObject('Panetteria', './assets/panetteria.jpg', './assets/rest_panetteria.jpg', 'La Panetteria', 'french')
-let Raku = new RestaurantObject('Raku', './assets/raku.png', './assets/rest_raku.jpg', 'Raku', 'asian')
-let UncleJulios= new RestaurantObject('UncleJulios', './assets/unclejulios.jpg', './assets/rest_julios.jpg', 'Uncle Julios', 'spanish')
-let LeVieux = new RestaurantObject('LeVieuxLogis', './assets/le_vieux.jpg', './assets/rest_levieuxlogis.jpg', 'Le Vieux Logis', 'french')
+let BibiBop = new RestaurantObject('BibiBop', './assets_new/bibibop.png', './assets_new/rest_bibibop.jpg', 'BibiBop', 'asian')
+let Chipotle = new RestaurantObject('Chipotle', './assets_new/chipotle.jpg', './assets_new/rest_chipotle.png', 'Chipotle', 'spanish')
+let Cesco = new RestaurantObject('CescoOsteria', './assets_new/cesco.png', './assets_new/rest_cesco.jpg', 'Cesco Osteria', 'italian')
+let GringoMariachi = new RestaurantObject('GringoMariachi', './assets_new/gringo_mari.png', './assets_new/rest_gringomari.jpg', 'Gringos & Mariachis', 'spanish')
+let Jaleo = new RestaurantObject('Jaleo', './assets_new/jaleo.jpg', './assets_new/rest_jaleo.jpg', 'Jaleo', 'spanish')
+let Tandoori = new RestaurantObject('TandooriNights', './assets_new/tandoori.png', './assets_new/rest_tandoori.jpg', 'Tandoori Nights', 'asian')
+let LaMadeleine = new RestaurantObject('laMadeleine', './assets_new/la_madeleine.jpg', './assets_new/rest_madeleine.jpg', 'La Madeleine', 'french')
+let HanaroSushi= new RestaurantObject('HanaroSushi', './assets_new/hanaro.png', './assets_new/rest_hanaro.jpg', 'Hanaro Sushi', 'asian')
+let MamaLucia = new RestaurantObject('MamaLucia', './assets_new/mama_lucia.jpg', './assets_new/rest_mamalucia.jpg', 'Mama Lucia', 'italian')
+let MannyOlga = new RestaurantObject('MannyOlga', './assets_new/manny_olga.png', './assets_new/rest_manny-olga.jpg', 'Manny & Olga\'s Pizza', 'italian')
+let MonAmi = new RestaurantObject('MonAmiGabi', './assets_new/mon_ami.jpg', './assets_new/monami.jpg', 'Mon Ami Gabi', 'french')
+let Olazzo = new RestaurantObject('Olazzo', './assets_new/olazzo.jpg', './assets_new/rest_olazzo.jpg', 'Olazzo', 'italian')
+let Panetteria = new RestaurantObject('Panetteria', './assets_new/panetteria.jpg', './assets_new/rest_panetteria.jpg', 'La Panetteria', 'french')
+let Raku = new RestaurantObject('Raku', './assets_new/raku.png', './assets_new/rest_raku.jpg', 'Raku', 'asian')
+let UncleJulios= new RestaurantObject('UncleJulios', './assets_new/unclejulios.jpg', './assets_new/rest_julios.jpg', 'Uncle Julios', 'spanish')
+let LeVieux = new RestaurantObject('LeVieuxLogis', './assets_new/le_vieux.jpg', './assets_new/rest_levieuxlogis.jpg', 'Le Vieux Logis', 'french')
 
 //push new instances/objects into the restaurant array
 restaurantArray.push(BibiBop, Chipotle, Cesco, GringoMariachi, Jaleo, Tandoori, LaMadeleine, HanaroSushi, MamaLucia, MannyOlga, MonAmi, Olazzo, Panetteria, Raku, UncleJulios, LeVieux)
@@ -72,7 +72,7 @@ function displayLogoImage(restaurants, val) {
 
 //Track logo selection and house in local storage for processing
 function clickedRestaurantLogo(restaurants, logoArrays) {
-  //create a slected restaurant variable using for-of loops 
+  //create a slected restaurant variable using for-of loops
   for (let restaurant of restaurants) {
     for (let logo of logoArrays) {
       logo.addEventListener('click', function (event) {
@@ -80,7 +80,7 @@ function clickedRestaurantLogo(restaurants, logoArrays) {
           addDataToLocalStorage(restaurant)
         }
         //Reference created to go to results page
-        window.location = './results.html' 
+        window.location = './results.html'
       })
     }
   }

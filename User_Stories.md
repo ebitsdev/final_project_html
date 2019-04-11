@@ -1,6 +1,6 @@
 # Final Project Overview: Code MD201-4
 
-## Bites'N Bethesda 
+## Bites'N Bethesda
 
 ### User Stories
 
@@ -26,13 +26,13 @@ To create this _"dine-out selection"_ application we enlisted a team of talented
 
 ~~Once the `marketing team` submits the results from their analysis the `videographers` will go out and capture the _"best views"_ of each restaurant.~~
 
-`UX/UI Designers` will generate wireframmed sketches and details which will guide the development team's formulation of `technical requirements` for the project (_see attached sketches and notes in the project assets folder_).
+`UX/UI Designers` will generate wireframmed sketches and details which will guide the development team's formulation of `technical requirements` for the project (_see attached sketches and notes in the project assets_new folder_).
 
 The application will consist of **four (4)** HTML pages with accompanying CSS and JavaScript code to style and drive the interactivity of the application. A master repository `final_bnbproject` will be created with accompanying branches: `html-content`; `css-content`; `js-content`. _User Stories_ will be held on the master branch.
 
 The **four** primary HTML pages are as follows: `index.html` `contact.html` `select.html` and `results.html`. Each HTML page will be styled by its respective CSS page: `main.css` `contact.css` `select.css` and `results.css`. The entire project will be driven by the JavaScript code created in a `select.js` and the subsequent `results.js` file.
 
-The application will launch on a main page `index.html`. It includes an `about` section and a *tag-line*. A link is established to the **selection page** `select.html` titled `LETS BEGIN`. There are also established links in the `navbar` to the `select.html` and `contact.html` page. 
+The application will launch on a main page `index.html`. It includes an `about` section and a *tag-line*. A link is established to the **selection page** `select.html` titled `LETS BEGIN`. There are also established links in the `navbar` to the `select.html` and `contact.html` page.
 
 The selection page will utilize a `div` with radio selections of **four cuisine options**. The users selections will invoke the display of **four restaurant logos** on each clicked cuisine selection. This is facilitated with an `eventListener` with initiates `on click`; pulls from an array and displays the *four (4) corresponding restaurant logo* **images** (_determined by the user's previously clicked cuisine selection_) on the `select.html` page. A subsequent user selection of any one of the *four restaurant logo options will `display a result` of the restaurant image on the `result.html` page. This entire functionality is powered by the `select.js` file which utilizes `arrays`, **DOM manipulation**, `function declarations`, **For-Of loops**, **protoyping**, and `local storage` to drive the projects interactivity.
 
@@ -50,7 +50,7 @@ On the `results.html` page the Javascript code `results.js` will manipulate the 
 
 - **Saturday, April 6th**: Full demo for final project with presentation elements.
 
-N.B. To `reload` or return the application to home a `link` is established in the NAV-BAR and the **company logo** (_This is accessible on all four pages_). **Additionally, the `assets` folder will also house all restaurant images and video relevant to the project.**
+N.B. To `reload` or return the application to home a `link` is established in the NAV-BAR and the **company logo** (_This is accessible on all four pages_). **Additionally, the `assets_new` folder will also house all restaurant images and video relevant to the project.**
 
 * Update - April 4, 2019: A navbar was included to each page and a `contact.html` page will be added to the project. The team is exploring the possibility of including a clever _easter egg_; details will be provided in future updates to the _User Stories_ file.
 

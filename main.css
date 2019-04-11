@@ -1,6 +1,6 @@
 header {
     background-color:#030c13;
-    height: 100px;    
+    height: 100px;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     margin: 10 auto;
 }
 
-img { 
+img {
     display: block;
     float: left;
     width: 15%;
@@ -25,10 +25,10 @@ nav {
     float: right;
     color: white;
     margin: 20px auto;
-    
+
 }
 
-nav ul { 
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -58,11 +58,11 @@ nav a:hover {
         float: none;
         padding-top: .5%;
         /* display: inline-block; */
-    } 
+    }
     nav a {
         font-size: 10px;
     }
-    img { 
+    img {
         display: block;
         float: left;
         width: 20%;
@@ -86,7 +86,7 @@ h2 {
     color: white;
 }
 
-h3 { 
+h3 {
     font-family: 'News Cycle', sans-serif;
     font-size: 35px;
     text-align: center;
@@ -108,7 +108,7 @@ h3 {
 p {
     font-family: 'News Cycle', sans-serif;
     font-weight: 200;
-    font-size: 20px; 
+    font-size: 20px;
     color:#dae3e9;
 }
 
@@ -116,11 +116,11 @@ p {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: cover;
-    background-size: 100%; 
+    background-size: 100%;
     padding-bottom: 20%;
     padding-top: 9%;
-    padding-left:63%; 
-    background-image: url(./assets/dinning_1_edited_1422x696.jpg);
+    padding-left:63%;
+    background-image: url(./assets_new/dinning_1_edited_1422x696.jpg);
 }
 
 @media all and (max-width : 700px) {
@@ -163,16 +163,16 @@ p {
     text-decoration: none;
     margin: 5px 2px;
   }
-  
+
   .fa:hover {
       opacity: 0.7;
   }
-  
+
   .fa-facebook {
     /* background:#3B5998; */
     color: white;
   }
-  
+
   .fa-twitter {
     /* background: #55ACEE; */
     color: white;
@@ -185,11 +185,11 @@ p {
       margin-top: 0;
   }
 
- 
+
 
 /* .button1 {
-    background-color:transparent; 
-    color:#8d0d28; 
+    background-color:transparent;
+    color:#8d0d28;
     border: 2px solid #8d0d28;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.5s;

@@ -1,5 +1,5 @@
 body {
-  background-image: url(./assets/pouringwine_edited.jpg
+  background-image: url(./assets_new/pouringwine_edited.jpg
  );
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,18 +9,18 @@ body {
  https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80
  ); */
  }
- 
+
  .container {
   font-family: 'Open Sans Condensed'
  }
- 
+
  #logo img {
   padding: 10px 50px;
   height: 172.87px;
   width: 251.59px;
   margin-left: 0px;
  }
- 
+
  #restaurant-name {
   text-align: center;
   font-family: 'Yesteryear';
@@ -28,16 +28,16 @@ body {
   font-weight: lighter;
   padding: 170px 20px 20px
  }
- 
+
  #result-image {
   padding: 10px;
   padding-left: 350px;
   display: block;
   margin-left: auto;
   margin-right: auto;
- 
+
  }
- 
+
  #result-image img{
  border: 2px solid slategray;
  height:400px;
@@ -45,19 +45,19 @@ body {
  padding: 1px;
  transition: all 1.5s ease-in-out;
  }
- 
+
  #result-image img:hover, img:focus{
   transform: scale(1.2);
  }
- 
+
  h2 {
   text-align: center;
   font-size: 40px;
   color: whitesmoke;
   font-family: 'Open Sans Condensed';
- 
+
  }
- 
+
  h2 :hover {
   background-color: aquamarine;
  }
